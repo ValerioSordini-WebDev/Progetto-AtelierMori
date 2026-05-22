@@ -162,14 +162,14 @@ const CAT_LABELS = {
    ---------------------------------------------------------------- */
 const ICONS = {
   arrowRight: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="arrow-r"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>`,
-  arrowLeft:  `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="arrow-l"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>`,
-  arrowDown:  `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>`,
-  menu:       `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>`,
-  close:      `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`,
-  mapPin:     `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
-  mail:       `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>`,
-  phone:      `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 5.27 5.27l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
-  send:       `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>`,
+  arrowLeft: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="arrow-l"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>`,
+  arrowDown: `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>`,
+  menu: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>`,
+  close: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`,
+  mapPin: `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
+  mail: `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>`,
+  phone: `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 5.27 5.27l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>`,
+  send: `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>`,
 };
 
 /* ----------------------------------------------------------------
@@ -209,9 +209,9 @@ function renderNavbar(currentPage) {
   const isHome = currentPage === 'home';
   const links = [
     { label: 'Progetti', path: '/projects', page: 'projects' },
-    { label: 'Studio',   path: '/studio',   page: 'studio' },
-    { label: 'Processo', path: '/process',  page: 'process' },
-    { label: 'Contatti', path: '/contact',  page: 'contact' },
+    { label: 'Studio', path: '/studio', page: 'studio' },
+    { label: 'Processo', path: '/process', page: 'process' },
+    { label: 'Contatti', path: '/contact', page: 'contact' },
   ];
 
   document.getElementById('navbar').innerHTML = `
@@ -219,9 +219,9 @@ function renderNavbar(currentPage) {
       <button id="nav-logo" onclick="navigate('/')">Atelier Mori</button>
       <nav class="nav-desktop">
         ${links.map(l => {
-          const active = currentPage === l.page || (currentPage === 'project' && l.page === 'projects');
-          return `<button class="nav-ul${active ? ' active' : ''}" onclick="navigate('${l.path}')">${l.label}</button>`;
-        }).join('')}
+    const active = currentPage === l.page || (currentPage === 'project' && l.page === 'projects');
+    return `<button class="nav-ul${active ? ' active' : ''}" onclick="navigate('${l.path}')">${l.label}</button>`;
+  }).join('')}
       </nav>
       <button id="hamburger" aria-label="Menu">${ICONS.menu}</button>
     </div>
@@ -374,8 +374,8 @@ function renderHome() {
 
       <!-- FEATURED PROJECTS -->
       <section style="padding:5rem 0;" class="px">
-        <div class="max-w" style="max-width:1280px;margin:0 auto;">
-          <div class="featured-header">
+        <div class="max-w px" style="max-width:1280px;margin:0 auto;">
+            <div class="featured-header">
             <div>
               <p class="eyebrow light">Selezione</p>
               <h2 class="section-title font-serif" style="color:#1a1917;">Progetti in evidenza</h2>
@@ -414,8 +414,8 @@ function renderHome() {
       <!-- STATS -->
       <div class="fade-up border-y section-py px">
         <div class="stats-grid max-w" style="max-width:1280px;margin:0 auto;">
-          ${[['14','Anni di attività'],['48','Progetti realizzati'],['6','Premi nazionali'],['3','Paesi europei']]
-            .map(([v,l]) => `<div style="text-align:center;"><p class="stat-val font-serif">${v}</p><p class="stat-lbl">${l}</p></div>`).join('')}
+          ${[['14', 'Anni di attività'], ['48', 'Progetti realizzati'], ['6', 'Premi nazionali'], ['3', 'Paesi europei']]
+      .map(([v, l]) => `<div style="text-align:center;"><p class="stat-val font-serif">${v}</p><p class="stat-lbl">${l}</p></div>`).join('')}
         </div>
       </div>
 
@@ -451,7 +451,7 @@ function renderHome() {
    PROJECTS PAGE
    ---------------------------------------------------------------- */
 function renderProjects(activeCategory) {
-  const cats = ['All','Residential','Interior','Cultural','Renovation'];
+  const cats = ['All', 'Residential', 'Interior', 'Cultural', 'Renovation'];
   const cat = activeCategory || 'All';
   const filtered = cat === 'All' ? PROJECTS : PROJECTS.filter(p => p.category === cat);
 
@@ -532,12 +532,12 @@ function renderProjectDetail(slug) {
   let activeImg = 0;
 
   const thumbs = project.images.length > 1
-    ? `<div class="detail-thumbs">${project.images.map((_,i) => `<button class="thumb-btn${i===0?' active':''}" data-i="${i}"></button>`).join('')}</div>`
+    ? `<div class="detail-thumbs">${project.images.map((_, i) => `<button class="thumb-btn${i === 0 ? ' active' : ''}" data-i="${i}"></button>`).join('')}</div>`
     : '';
 
   const galleryImgs = project.images.slice(1).map((img, i) => `
-    <div class="fade-up img-hover detail-gallery-item" style="transition-delay:${i*100}ms">
-      <img src="${img}" alt="${project.title} — vista ${i+2}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;">
+    <div class="fade-up img-hover detail-gallery-item" style="transition-delay:${i * 100}ms">
+      <img src="${img}" alt="${project.title} — vista ${i + 2}" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;">
     </div>
   `).join('');
 
@@ -552,14 +552,14 @@ function renderProjectDetail(slug) {
 
   const prevBtn = prev ? `
     <button class="proj-nav-btn" onclick="navigate('/projects/${prev.slug}')">
-      <span class="proj-nav-label">${ICONS.arrowLeft.replace('arrow-l','nav-arrow-l')} Precedente</span>
+      <span class="proj-nav-label">${ICONS.arrowLeft.replace('arrow-l', 'nav-arrow-l')} Precedente</span>
       <span class="proj-nav-title font-serif">${prev.title}</span>
     </button>
   ` : '<div></div>';
 
   const nextBtn = next ? `
     <button class="proj-nav-btn right" onclick="navigate('/projects/${next.slug}')">
-      <span class="proj-nav-label">Successivo ${ICONS.arrowRight.replace('arrow-r','nav-arrow-r')}</span>
+      <span class="proj-nav-label">Successivo ${ICONS.arrowRight.replace('arrow-r', 'nav-arrow-r')}</span>
       <span class="proj-nav-title font-serif">${next.title}</span>
     </button>
   ` : '<div></div>';
@@ -581,8 +581,8 @@ function renderProjectDetail(slug) {
       <!-- META -->
       <div class="detail-meta px">
         <div class="max-w detail-meta-grid" style="max-width:1280px;margin:0 auto;">
-          ${[['Anno',String(project.year)],['Superficie',project.area],['Categoria',CAT_LABELS[project.category]],['Luogo',project.location]]
-            .map(([l,v]) => `<div><p class="meta-label">${l}</p><p class="meta-val font-serif">${v}</p></div>`).join('')}
+          ${[['Anno', String(project.year)], ['Superficie', project.area], ['Categoria', CAT_LABELS[project.category]], ['Luogo', project.location]]
+      .map(([l, v]) => `<div><p class="meta-label">${l}</p><p class="meta-val font-serif">${v}</p></div>`).join('')}
         </div>
       </div>
 
@@ -638,7 +638,7 @@ function renderProjectDetail(slug) {
       btn.addEventListener('click', () => {
         activeImg = parseInt(btn.dataset.i);
         document.getElementById('detail-hero-img').src = project.images[activeImg];
-        document.querySelectorAll('.thumb-btn').forEach((b,i) => b.classList.toggle('active', i === activeImg));
+        document.querySelectorAll('.thumb-btn').forEach((b, i) => b.classList.toggle('active', i === activeImg));
       });
     });
   }
@@ -707,8 +707,8 @@ function renderStudio() {
         <div class="max-w px" style="max-width:1280px;margin:0 auto;">
           <p class="eyebrow light fade-up">Valori</p>
           <div class="values-grid">
-            ${values.map((v,i) => `
-              <div class="fade-up" style="transition-delay:${i*100}ms">
+            ${values.map((v, i) => `
+              <div class="fade-up" style="transition-delay:${i * 100}ms">
                 <p class="value-title font-serif">${v.title}</p>
                 <p class="value-text">${v.text}</p>
               </div>`).join('')}
@@ -721,8 +721,8 @@ function renderStudio() {
         <div class="max-w" style="max-width:1280px;margin:0 auto;">
           <p class="eyebrow light fade-up">Il Team</p>
           <div class="team-grid">
-            ${team.map((m,i) => `
-              <div class="fade-up" style="transition-delay:${i*120}ms">
+            ${team.map((m, i) => `
+              <div class="fade-up" style="transition-delay:${i * 120}ms">
                 <div class="img-hover team-img">
                   <img src="${m.image}" alt="${m.name}" loading="lazy" style="object-position:top">
                 </div>
@@ -762,31 +762,31 @@ function renderProcess() {
     {
       number: '01', title: 'Ascolto & Ricerca', duration: '2 – 4 settimane',
       description: "Ogni progetto inizia con un ascolto profondo. Incontriamo il committente più volte, visitiamo il sito in momenti diversi della giornata, studiamo la storia del luogo e le sue preesistenze. In questa fase raccogliamo tutto ciò che serve per comprendere davvero cosa vogliamo costruire.",
-      details: ['Brief approfondito','Sopralluoghi multipli','Analisi del contesto','Studio delle normative'],
+      details: ['Brief approfondito', 'Sopralluoghi multipli', 'Analisi del contesto', 'Studio delle normative'],
       image: 'https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=900',
     },
     {
       number: '02', title: 'Concept', duration: '3 – 6 settimane',
       description: "Il concept è il cuore del progetto. Non partiamo dalla forma, ma da un'idea narrativa: un tema, una relazione, una tensione. Da questa idea nasce il layout, la distribuzione degli spazi, il rapporto con la luce naturale. I primi schizzi sono liberi e sperimentali.",
-      details: ['Schizzi esplorativi','Modelli di studio','Definizione del tema','Prima presentazione'],
+      details: ['Schizzi esplorativi', 'Modelli di studio', 'Definizione del tema', 'Prima presentazione'],
       image: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=900',
     },
     {
       number: '03', title: 'Materiali', duration: '2 – 4 settimane',
       description: "La scelta dei materiali avviene in parallelo allo sviluppo del progetto, non come decorazione finale. Ogni materiale deve avere un senso strutturale, spaziale ed emozionale. Creiamo campionature fisiche, sperimentiamo abbinamenti, visitiamo fornitori e artigiani.",
-      details: ['Campionature fisiche','Visita fornitori','Tavola materica','Test di durabilità'],
+      details: ['Campionature fisiche', 'Visita fornitori', 'Tavola materica', 'Test di durabilità'],
       image: 'https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=900',
     },
     {
       number: '04', title: 'Sviluppo', duration: '8 – 16 settimane',
       description: "La fase di sviluppo è la più tecnica e dettagliata. Ogni giunzione, ogni spessore, ogni finitura viene studiata con precisione millimetrica. Lavoriamo a stretto contatto con ingegneri strutturali, impiantisti e artigiani specializzati per garantire la realizzabilità di ogni elemento.",
-      details: ['Progetto esecutivo','Coordinamento strutturale','Capitolato materiali','Modello BIM'],
+      details: ['Progetto esecutivo', 'Coordinamento strutturale', 'Capitolato materiali', 'Modello BIM'],
       image: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=900',
     },
     {
       number: '05', title: 'Realizzazione', duration: 'Variabile',
       description: "Seguiamo ogni progetto durante la fase costruttiva con sopralluoghi settimanali e un coordinamento costante con il cantiere. La direzione lavori è parte integrante del nostro servizio: garantiamo che ogni dettaglio venga realizzato esattamente come progettato.",
-      details: ['Direzione lavori','Sopralluoghi settimanali','Gestione artigiani','Collaudo finale'],
+      details: ['Direzione lavori', 'Sopralluoghi settimanali', 'Gestione artigiani', 'Collaudo finale'],
       image: 'https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=900',
     },
   ];
@@ -982,13 +982,13 @@ function render() {
   renderMobileMenu();
 
   switch (route.page) {
-    case 'home':    renderHome(); break;
+    case 'home': renderHome(); break;
     case 'projects': renderProjects(); break;
     case 'project': renderProjectDetail(route.slug); break;
-    case 'studio':  renderStudio(); break;
+    case 'studio': renderStudio(); break;
     case 'process': renderProcess(); break;
     case 'contact': renderContact(); break;
-    default:        renderHome();
+    default: renderHome();
   }
 
   renderFooter();
